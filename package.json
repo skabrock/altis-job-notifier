@@ -1,0 +1,20 @@
+{
+  "name": "work-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.mjs",
+    "start": "node index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "node-notifier": "^10.0.1",
+    "open": "^9.1.0"
+  }
+}
